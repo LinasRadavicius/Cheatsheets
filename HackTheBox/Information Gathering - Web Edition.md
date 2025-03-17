@@ -29,6 +29,26 @@ dig axfr @nsztm1.digi.ninja zonetransfer.me
 Typically represtned by A / AAAA or IPv6 records, also CNAME records can store them
 dnsenum -enum inlanefreight.com -f /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt -r
 
+
+**Crawling, Robots, URIs**
+BURP or ZAP have crawlers
+Scrapy - pip3 install scrapy
+ReconSpider (needs Scrapy for it to work)
+wget -O ReconSpider.zip https://academy.hackthebox.com/storage/modules/144/ReconSpider.v1.2.zip  
+python3 ReconSpider.py http://inlanefreight.com
+
+
 **GOBUSTER**
-gobuster vhos -u htttp://inlanefreight.htb:58460 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+gobuster vhost -u htttp://inlanefreight.htb:58460 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+
+
+**SKILL ASSESSMENT**
+whois inlanefreight.com
+curl -l http://inlanefreight.htb:50220/  
+
+nikto -h inlanefreight.htb:50220 -Tuning b  
+gobuster vhost -u http://inlanefreight.htb -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+(don't forget to update /etc/hosts as you go)
+
+  python3 ReconSpider3.py http://dev.web1337.inlanefreight.htb:50220 -o results.json
 
