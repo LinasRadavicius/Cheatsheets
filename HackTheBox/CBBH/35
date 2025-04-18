@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="ElBbkEndYGGhRy9ODyXXSz5sT0E9pAY8daBaPLvM">
+        <title>HTB Account</title>
+        <link rel="shortcut icon" href="/images/HTB-favicon/favicon.ico">
+        <link rel="icon" type="image/png" sizes="16x16" href="/images/HTB-favicon/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/images/HTB-favicon/favicon-32x32.png">
+        <link rel="apple-touch-icon" href="/images/HTB-favicon/apple-touch-icon.png">
+        <link rel='mask-icon' href="/images/HTB-favicon/safari-pinned-tab.svg">
+        <link rel="stylesheet" href="https://use.typekit.net/jxn7iyx.css">
+        <link rel="preload" as="style" href="https://account.hackthebox.com/build/assets/app-Bb4dPmxJ.css" /><link rel="preload" as="style" href="https://account.hackthebox.com/build/assets/app-DYbfzzX1.css" /><link rel="modulepreload" href="https://account.hackthebox.com/build/assets/app-nvBOjtrC.js" /><link rel="stylesheet" href="https://account.hackthebox.com/build/assets/app-Bb4dPmxJ.css" /><link rel="stylesheet" href="https://account.hackthebox.com/build/assets/app-DYbfzzX1.css" /><script type="module" src="https://account.hackthebox.com/build/assets/app-nvBOjtrC.js"></script>    </head>
+    <body>
+        <script>
+            window.AuthError = []
+        </script>
+                    <script>
+                window.AuthCheck = JSON.parse('{\u0022isLoggedin\u0022:false,\u0022user\u0022:null}')
+            </script>
+                <div id="app"></div>
+    </body>
+</html>
